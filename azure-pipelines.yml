@@ -61,4 +61,4 @@ stages:
         azureSubscription: 'azure-resources-manager-connecion-service'
         appType: 'webApp'
         WebAppName: 'webSitefyyyt4jle2oow'
-        packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+        packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
