@@ -2,7 +2,7 @@
 
 Param(
   [string] [Parameter(Mandatory=$true)] $ResourceGroupLocation,
-  [string] $ResourceGroupName = 'PartsUnlimited',
+  [string] $ResourceGroupName = 'EghosaAgunu',                      #PartsUnlimited
   [switch] $UploadArtifacts,
   [string] $StorageAccountName, 
   [string] $StorageContainerName = $ResourceGroupName.ToLowerInvariant() + '-stageartifacts',
