@@ -60,5 +60,5 @@ stages:
         ConnectionType: 'AzureRM'
         azureSubscription: 'azure-resource-connection-jops-overo-login'
         appType: 'webApp'
-        WebAppName: 'webSitenduybxx4dfcfy'
+        WebAppName: 'webSite3fwzacsrgvxsu'
         packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
