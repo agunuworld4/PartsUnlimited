@@ -58,7 +58,7 @@ stages:
     - task: AzureRmWebAppDeployment@4
       inputs:
         ConnectionType: 'AzureRM'
-        azureSubscription: 'azure-resources-manager-connecion-service'
+        azureSubscription: 'azure-resource-connection-jops-overo-login'
         appType: 'webApp'
-        WebAppName: 'webSitefyyyt4jle2oow'
+        WebAppName: 'webSitenduybxx4dfcfy'
         packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
